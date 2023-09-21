@@ -22,7 +22,7 @@ function NavBar() {
 function Logo() {
   return (
     <div className="logo">
-      <img src="./public/Nike-Logo-500x281.webp" alt="nike-logo" />
+      <img src="./Nike-Logo-500x281.webp" alt="nike-logo" />
     </div>
   );
 }
@@ -63,7 +63,7 @@ function Container() {
         <Socials />
       </div>
       <div className="img-container">
-        <img src="./public/hero-image.png" alt="" />
+        <img src="./hero-image.png" alt="" />
       </div>
     </div>
   );
@@ -75,10 +75,10 @@ function Socials() {
       <p>Also Availble On</p>
       <ul>
         <li>
-          <img src="./public/flipkart.png" alt="flipkart-logo" />
+          <img src="./flipkart.png" alt="flipkart-logo" />
         </li>
         <li>
-          <img src="./public/amazon.png" alt="amazon-logo" />
+          <img src="./amazon.png" alt="amazon-logo" />
         </li>
       </ul>
     </div>
