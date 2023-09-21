@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("https://db.onlinewebfonts.com/t/5c5a257758cff0acee4d28ff555f3bc5.eot");
+  src: url("https://db.onlinewebfonts.com/t/5c5a257758cff0acee4d28ff555f3bc5.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5c5a257758cff0acee4d28ff555f3bc5.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5c5a257758cff0acee4d28ff555f3bc5.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/5c5a257758cff0acee4d28ff555f3bc5.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5c5a257758cff0acee4d28ff555f3bc5.svg#Helvetica")
+      format("svg");
+  font-weight: bolder;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Bold";
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 80px;
+}
+
+.logo {
+  height: 70px;
+  width: 140px;
+}
+
+.logo img {
+  height: 55px;
+  width: 111px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.login-btn {
+  color: #fff;
+  background: #69d1e4;
+  padding: 7px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  margin: 40px 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 35px 65px;
+}
+
+.heading-container h1 {
+  font-size: 5.5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  /* width: 100%; */
+}
+
+.para-container {
+  width: 66%;
+  padding: 2px;
+}
+
+.para-container p {
+  font-size: 0.9rem;
+  color: #5a5959;
+  margin-top: 30px;
+  /* width: 100%; */
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.text-container .buttons-grp {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.buttons-grp .btn {
+  font-size: 1.2rem;
+  padding: 6px 12px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.shop-now {
+  background-color: #69d1e4;
+  outline: none;
+  border: none;
+}
+
+.category {
+  color: #5a5959;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.social {
+  font-weight: 100;
+  margin-top: 35px;
+}
+.social ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.img-container {
+  padding: 40px 20px;
+}
+
+.img-container img {
+  height: 31rem;
+  width: 31rem;
+}
