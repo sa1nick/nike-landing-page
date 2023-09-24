@@ -2,7 +2,7 @@
 
 Welcome to the Nike Landing Page project built with React and Vite! This project is a modern and efficient web application template for creating a landing page for Nike products. It's designed to help you get started quickly with your web development project.
 
-![](https://github.com/n1khilnick/nike-landing-page/blob/22430a7c56365ada896011855794dfee23785d9c/preview.png)
+![nike-landing-page](https://github.com/n1khilnick/nike-landing-page/blob/22430a7c56365ada896011855794dfee23785d9c/preview.png)
 
 ## Live Demo
 
